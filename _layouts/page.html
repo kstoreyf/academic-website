@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section id="main" class="container {{ page.box_width }}">
+  {% if page.title %}
+  <header>
+    <h2>{{ page.title }}</h2>
+    {% if page.subtitle %}
+      <p>{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+  {% endif %}
+
+  {{ content }}
+</section>
