@@ -9,7 +9,11 @@ buttons:
     url: "#"
 ---
 
+{% comment %}
+{% endcomment %}
+
 {% include about.md %}
+{% include cards.html content=site.research title="Research" label="research" %}
 {% include_relative _layouts/simple.md src="teaching.md" %}
 
 <section class="box special features">

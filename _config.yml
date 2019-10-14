@@ -24,11 +24,14 @@ instagram_username:
 
 # Build settings
 markdown: kramdown
-kramdown: 
-  parse_block_html: true
+#kramdown: 
+#  parse_block_html: true
 
 include:
-  - _pages
+  - sections
+
+collections:
+  - research
 
 compress_html:
   clippings: []
