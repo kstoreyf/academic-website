@@ -1,4 +1,4 @@
-## Teaching
+## <a name="teaching"></a> Teaching
 
 #### Courses
 

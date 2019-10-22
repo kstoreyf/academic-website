@@ -1946,7 +1946,7 @@
 	header p {
 		color: #999;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0.5em 0;
 		font-style: italic;
 	}
 
@@ -1983,15 +1983,15 @@
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
 			color: #777;
-			margin: 1.5em 0 0 0;
-			padding: 1.5em 0 0 0;
+			margin: 0.5em 0 0 0;
+			padding: 0.5em 0 0 0;
 			font-style: normal;
 		}
 
 /* Form */
 
 	form {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	label {
@@ -2189,8 +2189,8 @@
 		background: #fff;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
-		margin: 0 0 2em 0;
-		padding: 3em;
+		margin: 0 0 1em 0;
+		padding: 1.5em;
 	}
 
 		.box > :last-child {
@@ -2218,7 +2218,7 @@
 
 			.box.features .features-row section {
 				float: left;
-				padding: 3em;
+				padding: 1.5em;
 				width: 50%;
 			}
 
@@ -2235,7 +2235,7 @@
 						content: '';
 						display: block;
 						height: 100%;
-						margin-left: -3em;
+						margin-left: -1.5em;
 						position: absolute;
 						top: 0;
 						width: 2px;
@@ -2263,14 +2263,15 @@
 
 		.box.special {
 			text-align: left;
+			margin: 1em 0em 1em -1em;
 		}
 
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
-			margin: 3em 0 3em -3em;
+			margin: 3em 0 3em -1.5em;
 			position: relative;
-			width: calc(100% + 6em);
+			width: calc(100% + 3em);
 		}
 
 			.box .image.featured img {
@@ -2281,8 +2282,8 @@
 
 			.box .image.featured:first-child {
 				border-radius: 6px 6px 0 0;
-				margin-bottom: 3em;
-				margin-top: -3em;
+				margin-bottom: 1.5em;
+				margin-top: -1.5em;
 			}
 
 				.box .image.featured:first-child img {
@@ -2291,8 +2292,8 @@
 
 			.box .image.featured:last-child {
 				border-radius: 0 0 6px 6px;
-				margin-bottom: -3em;
-				margin-top: 3em;
+				margin-bottom: -1.5em;
+				margin-top: 1.5em;
 			}
 
 				.box .image.featured:last-child img {
