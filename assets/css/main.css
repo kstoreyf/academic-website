@@ -1970,8 +1970,8 @@
 		line-height: 1.5em;
 	}
 
-	header.major {
-		padding: 1em 0;
+	header.major { /*controls width around all elements in header box*/
+		padding: 0 0 0 0;
 		text-align: left;
 	}
 
@@ -1981,11 +1981,15 @@
 
 		header.major p {
 			display: inline-block;
-			border-top: solid 2px #e5e5e5;
+			/*border-top: solid 2px #e5e5e5;*/
 			color: #777;
-			margin: 0.5em 0 0 0;
-			padding: 0.5em 0 0 0;
+			margin: 0.5em 0 0.5em 0;
+			padding: 0.5em 0 0.5em 0;
 			font-style: normal;
+		}
+
+		header.major img { /* controls image in about */
+			padding: 0 1.5em 0 0.5em;
 		}
 
 /* Form */
@@ -3095,7 +3099,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 4em 0em; #controls width of all elements
 	}
 
 		#main > header {
@@ -3117,8 +3121,12 @@
 				padding: 1em 0 1.25em 0;
 			}
 
+	/*#main > img {
+		padding: 10em 0 10em 0;
+	}*/
+
 	body.landing #main {
-		margin-top: -14em;
+		margin-top: -18em; /*controls height of "about" box*/
 	}
 
 /* Footer */
