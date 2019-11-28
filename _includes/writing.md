@@ -7,3 +7,5 @@ Twinkle, Twinkle
 Twinkle, Twinkle
 
 I've also published in the Cooper Square Review, a [book review](http://coopersquarereview.org/review/the-algorithms-that-rule-your-life/) of "Hello World" by Hannah Fry.
+
+<!---Leave blank line at bottom! Otherwise things mess up--->
