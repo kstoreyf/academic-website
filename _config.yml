@@ -8,7 +8,7 @@
 # Site settings
 title: Kate Storey-Fisher
 email: k.sf@nyu.edu 
-description: PhD Student, Center for Cosmology and Particle Physics, NYU
+description: "PhD Student, Center for Cosmology and Particle Physics,\nNew York University"
 baseurl: "/ksf" # the subpath of your site, e.g. /blog
 url: "https://cosmo.nyu.edu" # the base hostname & protocol for your site
 

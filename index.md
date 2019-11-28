@@ -7,6 +7,10 @@ buttons:
     url: "#research"
   - title: "Teaching"
     url: "#teaching"
+  - title: "Writing"
+    url: "#writing"
+  - title: "News"
+    url: "#news"
 ---
 
 {% comment %}
@@ -16,3 +20,5 @@ buttons:
 {% include about.md %}
 {% include_relative _layouts/cards.html content=site.research title="Research" label="research" %}
 {% include_relative _layouts/simple.md src="teaching.md" %}
+{% include_relative _layouts/simple.md src="writing.md" %}
+{% include_relative _layouts/simple.md src="news.md" %}

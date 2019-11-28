@@ -1,4 +1,6 @@
-<h2 id="{{ include.label }}">{{ include.title }}</h2>
+<section class="box title">
+    <h2 id="{{ include.label }}">{{ include.title }}</h2>
+</section>
 <div class="row">
 {% assign dir = {{include.content}} %}
 {% for item in dir %}
@@ -6,11 +8,11 @@
 
         <section class="box special">
             <span class="image featured"><img src="{{ item.image | relative_url }}" alt="" /></span>
-            <h3>{{ item.title }}</h3>
+            <h4>{{ item.title }}</h4>
             <p>{{ item.description}}</p>
-            <ul class="actions">
+            <!-- <ul class="actions">
                 <li><a href="#" class="button alt">Learn More</a></li>
-            </ul>
+            </ul> -->
         </section>
     </div>
 {% endfor %}
