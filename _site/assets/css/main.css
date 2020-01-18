@@ -1837,6 +1837,7 @@
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
+        text-align: center;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1861,6 +1862,19 @@
 		line-height: 1.5em;
 		letter-spacing: 0;
 	}
+
+    /* Line below headers */
+    h2 { margin: 0 0 0.5em 0; }
+    h2:after {
+        background: rgba(144, 144, 144, 0.5);
+        content: '';
+        display: block;
+        height: 2px;
+        margin-top: 0.3em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 2em; }
 
 	h5 {
 		font-size: 0.9em;
@@ -2849,7 +2863,8 @@
 	}
 
 	#header {
-		background: #444;
+		/*background: #444;*/
+        background: rgba(50, 90, 140, 0.75); /*color of header box with name that pops up when scorll*/
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;

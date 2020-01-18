@@ -1,6 +1,6 @@
 ## <a name="writing"></a>Writing
 
-I write for Astrobites, a site by graduate students that summarizes new astronomy research papers and dishes out other astro-focused content. Some of my recent posts:
+I write for Astrobites, a site by graduate students that summarizes new astrophysics research papers and dishes out other astro-focused content. Some of my recent posts:
 - ![twinkle](images/writing/twinkle.png "make a wish") 
 Twinkle, Twinkle
 - ![twinkle](images/writing/twinkle.png "make a wish") 

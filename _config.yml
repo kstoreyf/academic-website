@@ -32,6 +32,7 @@ include:
 
 collections:
   - research
+  - writing
 
 compress_html:
   clippings: []

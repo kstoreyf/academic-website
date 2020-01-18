@@ -1,5 +1,7 @@
-## <a name="news"></a>News
+## <a name="updates"></a>Updates
 
+- **January 2019**: I gave a talk and a workshop at AAS235 in Honolulu, Hawai'i..
+- **December 2019**: I was elected co-chair of our new grad student org at NYU, G-PHORCE (Graduate Physics Organization for Research, Culture, and Education).
 - **October 2019**: I attended the [dotAstronomy](https://www.dotastronomy.com) conference in Toronto!
 - **September 2019**: I presented at [GothamFest](https://cunyastro.org/news/gothamfest/), New York’s annual festival of astronomy talks.
 - **July-August 2019**: I was a [Kavli Student Fellow](https://kspa.soe.ucsc.edu/archives/2019/students) at the [Kavli Summer Program in Astrophysics](https://kspa.soe.ucsc.edu) at UC Santa Cruz, on Machine Learning in the Era of Large Astronomical Surveys.
