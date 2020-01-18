@@ -1797,7 +1797,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #777;
+		color: #fff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2301,9 +2301,16 @@
 				margin-right: 0em;
 			}
 
+        /* BOXES FULL SCREEN WIDTH */  
 		.box.simple {
 			text-align: left;
-			margin: 1em -1em 1em 0em;
+			/*margin: 1em -1em 1em 0em;*/
+            margin: 0 -9999rem;
+             /* add back negative margin value */
+            padding: 0.25rem 9999rem;
+            /*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
+            background-image: linear-gradient(rgba(205,205,205,0.5), rgba(205,205,205,0.5)), url("../../images/banner.jpg");
+            background-attachment: scroll, fixed;
 		}
 
 			/*list elements for simple layout*/
@@ -3317,8 +3324,12 @@
 
 		/* Basic */
 
+            html, body {
+                overflow-x: hidden;
+            }
+
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 15pt;
 			}
 
 		/* Banner */
@@ -3335,8 +3346,12 @@
 
 		/* Basic */
 
+            html, body {
+                overflow-x: hidden;
+            }
+
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 		/* Header */
@@ -3362,6 +3377,10 @@
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+
+            html, body {
+                overflow-x: hidden;
+            }
 
 			body, input, select, textarea {
 				font-size: 11pt;
