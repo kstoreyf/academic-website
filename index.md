@@ -21,10 +21,11 @@ buttons:
 
 {% include about.md %}
 {% include_relative _layouts/cards.html content=site.research title="Research" label="research" %}
-{% include_relative _layouts/simple.md src="teaching.md" %}
+{% include_relative _layouts/picture.md src="teaching.md" %}
 {% comment %}
 {% include_relative _layouts/cards.html content=site.writing title="Writing" label="writing" %}
-{% endcomment %}
 {% include_relative _layouts/simple.md src="writing.md" %}
-{% include_relative _layouts/simple.md src="updates.md" %}
+{% endcomment %}
+{% include_relative _layouts/thumbnails.html content=site.writing title="Writing" label="writing" src="writing.md" %}
+{% include_relative _layouts/picture.md src="updates.md" %}
 {% include_relative _layouts/simple.md src="service.md" %}

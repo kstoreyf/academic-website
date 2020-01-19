@@ -1,8 +1,8 @@
 <div class="layout">
-	<section id="teaching" class="container">
-	<section class="box simple features">
+	<section id="{{ include.label }}" class="container">
+    <section class="box simple features">
         <!-- <section class="box title"> --->
-        <h2 id="{{ include.label }}">{{ include.title }}</h2>
+        <h2>{{ include.title }}</h2>
         <!-- </section> --->
         <div class="row">
         {% assign dir = {{include.content}} %}

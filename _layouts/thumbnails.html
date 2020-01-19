@@ -1,0 +1,20 @@
+<div class="layout">
+	<section id="{{ include.label }}" class="container">
+	<section class="box simple features">
+        <!-- <section class="box title"> --->
+        <h2>{{ include.title }}</h2>
+        <!-- </section> --->
+        <!--<p> {{main.description}} </p>-->
+        <div markdown="1">{% include {{include.src}} %}</div>
+        <div class="row">
+        {% assign dir = {{include.content}} %}
+        {% for item in dir %}
+            <article class="4u 12u$(xsmall) work-item">
+				<a href="{{ item.link }}" target="_blank" class="image fit thumb"><img src="{{ item.image | relative_url }}" alt="" /></a>        
+                <h5>{{ item.title }}</h5>
+            </article>
+        {% endfor %}
+        </div>
+        </section>
+	</section>
+</div>
