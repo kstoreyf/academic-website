@@ -12,6 +12,7 @@
             <article class="4u 12u$(xsmall) work-item">
 				<a href="{{ item.link }}" target="_blank" class="image fit thumb"><img src="{{ item.image | relative_url }}" alt="" /></a>        
                 <h5>{{ item.title }}</h5>
+                <h6>{{ item.description }}</h6>
             </article>
         {% endfor %}
         </div>

@@ -1890,9 +1890,10 @@
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 1.0em;
 		line-height: 1.5em;
 		letter-spacing: 0;
+        text-align: left;
 	}
 
 	sub {
@@ -2559,7 +2560,9 @@
 				display: block;
 				width: 100%;
                 height: 12em;
+                /*object-fit: contain;*/
                 object-fit: cover;
+                object-position: 0% 100%;
 			}
    
 		.image:before {
@@ -2591,7 +2594,7 @@
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'Read';
+				content: 'More';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;

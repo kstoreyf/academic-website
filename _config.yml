@@ -33,6 +33,7 @@ include:
 collections:
   - research
   - writing
+  - outreach
 
 compress_html:
   clippings: []
