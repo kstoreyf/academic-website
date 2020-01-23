@@ -2461,6 +2461,10 @@
 			margin: 0;
 		}
 
+        .work-item a {
+            color: #EDB500;
+        }
+
 
 /* Icon */
 
