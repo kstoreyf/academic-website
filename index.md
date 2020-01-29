@@ -32,4 +32,5 @@ buttons:
 {% include_relative _layouts/thumbnails.html content=site.writing title="Writing" label="writing" src="writing.md" %}
 {% include_relative _layouts/picture.md src="updates.md" %}
 {% include_relative _layouts/thumbnails.html content=site.outreach title="Outreach" label="outreach" src="outreach.md" %}
-{% include_relative _layouts/simple.md src="service.md" %}
+{% include_relative _layouts/picture.md src="service.md" %}
+{% include_relative _layouts/simple.md src="contact.md" %}
