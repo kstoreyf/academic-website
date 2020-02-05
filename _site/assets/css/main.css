@@ -2299,11 +2299,13 @@
 		}
 
             /* for about box flush with bottom of banner, top=0 and bottom=-1 */
+            /* for below PhD student, above buttons, top=-6, bottom=6 */
+            /* for below about, top=24, bot=6 */
 			.box.special:first-child {
-				margin-top: -6em; /* height of about box and bottom of banner*/
+				margin-top: -1em; /* height of about box and bottom of banner*/
 				margin-left: 0em;
 				margin-right: -1em;
-                margin-bottom: 6em; /* controls width between about box and start of main boxes, by moving banner */
+                margin-bottom: 1.5em; /* controls width between about box and start of main boxes, by moving banner */
 			}
 
 			.box.special:last-child {
@@ -2900,8 +2902,8 @@
 		display: inline-block;
 		font-weight: 400;
 		height: 3em;
-		line-height: 3em;
-		padding: 0 2em;
+		line-height: 3em; /*height location of button text*/
+		padding: 0em 2em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -3035,7 +3037,7 @@
 	}
 
 	body.landing #page-wrapper {
-		padding-top: 0;
+		padding-top: 0 /* very top of page */;
 	}
 
 	@-moz-keyframes reveal-header {
@@ -3342,7 +3344,7 @@
 
 		#banner p {
 			font-size: 1.25em;
-			margin-bottom: 1.75em;
+			margin-bottom: 1.75em; /* was 1.75 when about below buttons, 17 when about box above buttons */
 		}
 
 		#banner input[type="submit"],
