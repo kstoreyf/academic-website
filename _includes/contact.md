@@ -19,11 +19,9 @@ Feel free to get in touch—you could @ me on Twitter, or open a pull request on
     </div>
 </div>
 
-<!--<ul class="icons">
-    <li><i class="fab fa-twitter fa-4x"></i></li>
-    <li><i class="fab fa-github fa-4x"></i></li>
-    <li><i class="far fa-envelope fa-4x"></i></li>
-</ul>-->
+<br>
+If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.
+
 </center>
 
 <!---Leave blank line at bottom! Otherwise things mess up--->
