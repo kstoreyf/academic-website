@@ -1,8 +1,12 @@
 ## <a name="contact"></a>Contact me!
 
 <center>
+<p>
 Feel free to get in touch—you could @ me on Twitter, or open a pull request on one of my repos, but probably just send me an email.
-<p></p>
+<br>
+<br>
+If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.
+</p>
 
 <div class="icons">
     <div class="icon_single">
@@ -18,9 +22,6 @@ Feel free to get in touch—you could @ me on Twitter, or open a pull request on
         <h6><a href="https://www.github.com/kstoreyf" target="_blank">@kstoreyf</a></h6>
     </div>
 </div>
-
-<br>
-If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.
 
 </center>
 

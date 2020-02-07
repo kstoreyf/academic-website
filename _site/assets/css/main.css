@@ -2341,7 +2341,7 @@
 
                 .box.simple:last-child {
                     margin-bottom: -4em;
-                    padding-bottom: 2em;
+                    padding-bottom: 3.5em; /* padding below bottom of thumbnails */
                 }   
 
         /* BOXES FULL SCREEN WIDTH */
