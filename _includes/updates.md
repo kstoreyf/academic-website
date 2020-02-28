@@ -1,5 +1,6 @@
 ## <a name="updates"></a>Updates
 
+- **Feburary 2020**: I passed my oral qualifying exam to become a PhD candidate!
 - **January 2020**: I gave a [research talk](https://www.abstractsonline.com/pp8/#!/8993/presentation/1995){:target="\_blank"} and led a [science communication workshop](https://www.abstractsonline.com/pp8/#!/8993/session/253){:target="\_blank"} at [AAS235](https://aas.org/meetings/aas235){:target="\_blank"} in Honolulu, Hawai'i.
 - **December 2019**: I was elected co-chair of our new grad student org at NYU, G-PHORCE (Graduate Physics Organization for Research, Culture, and Education).
 - **October 2019**: I attended the [dotAstronomy](https://www.dotastronomy.com){:target="\_blank"} conference in Toronto!

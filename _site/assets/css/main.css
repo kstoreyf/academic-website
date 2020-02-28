@@ -2301,11 +2301,12 @@
             /* for about box flush with bottom of banner, top=0 and bottom=-1 */
             /* for below PhD student, above buttons, top=-6, bottom=6 */
             /* for below about, top=24, bot=6 */
+            /* free floating about: top -1, bot 1.5 */
 			.box.special:first-child {
 				margin-top: -1em; /* height of about box and bottom of banner*/
 				margin-left: 0em;
 				margin-right: -1em;
-                margin-bottom: 1.5em; /* controls width between about box and start of main boxes, by moving banner */
+                margin-bottom: 3.5em; /* controls width between about box and start of main boxes, by moving banner */
 			}
 
 			.box.special:last-child {
@@ -2339,9 +2340,13 @@
 				width: 10em;
 			}
 
+                .box.simple:first-child {
+                    margin-top: -2.5em;
+                }
+
                 .box.simple:last-child {
                     margin-bottom: -4em;
-                    padding-bottom: 3.5em; /* padding below bottom of thumbnails */
+                    padding-bottom: 4.5em; /* padding below bottom of thumbnails */
                 }   
 
         /* BOXES FULL SCREEN WIDTH */
@@ -2350,7 +2355,7 @@
             /*margin: 1em -1em 1em 0em;*/
             margin: 0 -9999rem;
              /* add back negative margin value */
-            padding: 1.25rem 9999rem;
+            padding: 1.25rem 9999rem 3.25rem 9999rem;
             /*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
             /*background-image: linear-gradient(rgba(30,30,30,0.5), rgba(30,30,30,0.5)), url("../../images/banner.jpg");*/
             background-image: url("images/overlay.png"), url("../../images/banner_blur.jpg");
@@ -3382,7 +3387,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0em; /*controls width of all elements*/
+		padding: 4em -2em; /*controls width of all elements*/
 	}
 
 		#main > header {
@@ -3409,7 +3414,7 @@
 	}*/
 
 	body.landing #main {
-		margin-top: -19.8em; /*controls height of "about" box and bottom of banner*/
+		margin-top: -15.8em; /*controls height of "about" box and bottom of banner (-19.8)*/
 	}
 
 /* Footer */
