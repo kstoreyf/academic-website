@@ -2,8 +2,9 @@
 
 #### Courses
 
+- **Fall 2021**: [Quantum Mechanics I](https://wp.nyu.edu/shabanilab/courses/qm1_2021/){:target="\_blank"}, NYU (Recitation Instructor)
 - **Fall 2019**: Quarks to Cosmos (Lab Instructor)
-- **Fall 2018**: [Physics 1](https://cosmo.nyu.edu/hogg/physics1/){:target="\_blank"}, NYU (Recitation Teaching Assistant)
+- **Fall 2018**: [Physics 1](https://cosmo.nyu.edu/hogg/physics1/){:target="\_blank"}, NYU (Recitation Instructor)
 - **Fall 2015**: [Introduction to Object-Oriented Programming and Computer Science](https://cs.brown.edu/courses/cs015/){:target="\_blank"}, Brown University (Undergraduate Teaching Assistant)
 
 #### Pedagogy
