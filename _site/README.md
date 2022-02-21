@@ -11,5 +11,5 @@ It uses the Alpha theme from [HTML5 UP](https://html5up.net/), converted to jeky
 - Make edits in local git repo.
 - From repo directory, run `bundle exec jekyll serve`. Navigate to [http://localhost:4000/ksf](http://localhost:4000/ksf/) to preview (don't forget the final backslash!).
 - When done with edits, run `bundle exec jekyll build`. (If you forget this, things will break and it might not be clear why!)
-- Push changes to git, and pull into repo on remote server where website is hosted. Copy the `_site` directory into the public website directory (`cp -r academic-website/_site public_html`).  
+- Push changes to git, and pull into repo on remote server where website is hosted. Copy the contents of the `_site` directory into the public website directory (`cp -r academic-website/_site/* public_html`).  
 - Navigate to your newly updated website at [https://cosmo.nyu.edu/ksf/](https://cosmo.nyu.edu/ksf/)!
