@@ -7,6 +7,7 @@ It uses the Alpha theme from [HTML5 UP](https://html5up.net/), converted to jeky
 
 ### How to update
 
+- First, make sure you have the proper gems installed. If the below commands don't work, check out the [jekyll instructions](https://jekyllrb.com/docs/).
 - Make edits in local git repo.
 - From repo directory, run `bundle exec jekyll serve`. Navigate to [http://localhost:4000/ksf](http://localhost:4000/ksf/) to preview (don't forget the final backslash!).
 - When done with edits, run `bundle exec jekyll build`. (If you forget this, things will break and it might not be clear why!)
