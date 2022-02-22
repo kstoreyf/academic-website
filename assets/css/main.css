@@ -2305,6 +2305,7 @@
 		.box.special {
 			text-align: left;
 			margin: -1em 0.5em 0.5em -1em;
+            border-radius: 10px;
 		}
 
             /* for about box flush with bottom of banner, top=0 and bottom=-1 */
@@ -2315,7 +2316,7 @@
 				margin-top: -1em; /* height of about box and bottom of banner*/
 				margin-left: 0em;
 				margin-right: -1em;
-                margin-bottom: 3.5em; /* controls width between about box and start of main boxes, by moving banner */
+                margin-bottom: 5em; /* controls width between about box and start of main boxes, by moving banner. 5 for full width */
 			}
 
 			.box.special:last-child {
@@ -2757,6 +2758,8 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+            /* KSF added this padding to get org of about box to work */
+            padding-bottom: 4em;
 		}
 
 			ul.actions li {
@@ -3421,7 +3424,7 @@
 	}*/
 
 	body.landing #main {
-		margin-top: -15.8em; /*controls height of "about" box and bottom of banner (-19.8)*/
+		margin-top: -19.8em; /*controls height of "about" box and bottom of banner (-19.8)*/
 	}
 
 /* Footer */
