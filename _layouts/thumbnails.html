@@ -9,8 +9,10 @@
         <div class="row">
         {% assign dir = {{include.content}} %}
         {% for item in dir %}
+            <!-- if item begins with underscore, do not display -->
             {% if dir[0] != "_" %}
-            <article class="4u 12u$(xsmall) work-item">
+            <!--<article class="4u 12u$(xsmall) work-item">-->
+            <article class="4u 8u(narrower) work-item">
 				<a href="{{ item.link }}" target="_blank" class="image fit thumb"><img src="{{ item.image | relative_url }}" alt="" /></a>        
                 <h5>{{ item.title }}</h5>
                 <h6>{{ item.description }}</h6>
