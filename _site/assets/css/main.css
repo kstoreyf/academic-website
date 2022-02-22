@@ -2237,6 +2237,15 @@
 			padding: 0 !important;
 		}
 
+        .box.features {
+            border-style: none;
+			margin: 0 0 2em 0;
+        }
+
+        .box.features .image {
+            margin: 0 0 1.5em 0;
+        }
+
 		.box.features .features-row {
 			border-top: solid 2px #e5e5e5;
 			position: relative;
@@ -2267,7 +2276,7 @@
 						content: '';
 						display: block;
 						height: 100%;
-						margin-left: -1.5em;
+						margin-left: 1.5em;
 						position: absolute;
 						top: 0;
 						width: 2px;
@@ -2296,6 +2305,7 @@
 		.box.special {
 			text-align: left;
 			margin: -1em 0.5em 0.5em -1em;
+            border-radius: 10px;
 		}
 
             /* for about box flush with bottom of banner, top=0 and bottom=-1 */
@@ -2306,7 +2316,7 @@
 				margin-top: -1em; /* height of about box and bottom of banner*/
 				margin-left: 0em;
 				margin-right: -1em;
-                margin-bottom: 3.5em; /* controls width between about box and start of main boxes, by moving banner */
+                margin-bottom: 5em; /* controls width between about box and start of main boxes, by moving banner. 5 for full width */
 			}
 
 			.box.special:last-child {
@@ -2318,11 +2328,9 @@
 		.box.simple {
 			text-align: left;
 			/*margin: 1em -1em 1em 0em;*/
-            margin: 0 -9999rem;
-             /* add back negative margin value */
-            padding: 1.25rem 9999rem 1.25rem 9999rem;
-            /*background-image: linear-gradient(rgba(100,100,100,0.5), rgba(100,100,100,0.5)), url("../../images/banner.jpg");
-            background-attachment: scroll, fixed;*/
+            /* this is hacky but it keeps the image full-width */
+            margin: 0em calc(100% - 100vw);
+            padding: 1.25em calc(100vw - 100%) 3.25em calc(100vw - 100%);
 		}
 
 			/*list elements for simple layout*/
@@ -2353,11 +2361,9 @@
         .box.picture {
             text-align: left;
             /*margin: 1em -1em 1em 0em;*/
-            margin: 0 -9999rem;
-             /* add back negative margin value */
-            padding: 1.25rem 9999rem 3.25rem 9999rem;
-            /*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
-            /*background-image: linear-gradient(rgba(30,30,30,0.5), rgba(30,30,30,0.5)), url("../../images/banner.jpg");*/
+            /* this is hacky but it keeps the image full-width */
+            margin: 0em calc(100% - 100vw);
+            padding: 1.25em calc(100vw - 100%) 3.25em calc(100vw - 100%);
             background-image: url("images/overlay.png"), url("../../images/banner_blur.jpg");
             background-attachment: scroll, fixed;
             /*background-repeat: no-repeat;*/
@@ -2457,9 +2463,10 @@
 				}
 
 /* Work Item */
+/* this is my class for the old "cards". the remaining issue is that if there is only one card in a row, it isn't centered! */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0em 2em 0em;
 	}
 
 		.work-item .image {
@@ -2546,7 +2553,8 @@
 
 .icon_single {
     flex: 1 1 50%;
-    padding: 0px 1rem;
+    /*padding: 0px 1rem;*/
+    padding: 0em 1rem 2rem 1rem;
     display: inline-block;
 }
 
@@ -2731,7 +2739,7 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1.25em 0 0;
+				padding: 0em 1.25em 0em 0;
 			}
 
 				ul.icons li:last-child {
@@ -2750,6 +2758,8 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+            /* KSF added this padding to get org of about box to work */
+            padding-bottom: 4em;
 		}
 
 			ul.actions li {
@@ -3414,7 +3424,7 @@
 	}*/
 
 	body.landing #main {
-		margin-top: -15.8em; /*controls height of "about" box and bottom of banner (-19.8)*/
+		margin-top: -19.8em; /*controls height of "about" box and bottom of banner (-19.8)*/
 	}
 
 /* Footer */
@@ -3840,10 +3850,14 @@
 /* Mobile */ /* about 1/4 screen */
 
     /* disable this for now, can't get to work */
-    @media screen and (max-width: 0px) {
-	/*@media screen and (max-width: 736px) {*/
+    /*@media screen and (max-width: 0px) {*/
+	@media screen and (max-width: 736px) {
 
 		/* Basic */
+           /* KSF added: */
+           html, body {
+                overflow-x: hidden;
+            }
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -3978,6 +3992,7 @@
 		/* Basic */
 
 			html, body {
+                overflow-x: hidden;
 				min-width: 320px;
 			}
 
