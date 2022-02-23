@@ -2304,8 +2304,12 @@
 
 		.box.special {
 			text-align: left;
-			margin: -1em 0.5em 0.5em -1em;
+			/*margin: -1em 0.5em 0.5em -1em;*/
+            /*margin: -1em 0.5em -1em 0.5em;*/
             border-radius: 10px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(50, 90, 140, 0.75);
 		}
 
             /* for about box flush with bottom of banner, top=0 and bottom=-1 */
@@ -2315,13 +2319,13 @@
 			.box.special:first-child {
 				margin-top: -1em; /* height of about box and bottom of banner*/
 				margin-left: 0em;
-				margin-right: -1em;
+				margin-right: 0em;
                 margin-bottom: 5em; /* controls width between about box and start of main boxes, by moving banner. 5 for full width */
 			}
 
 			.box.special:last-child {
-				margin-bottom: 0em;
-				margin-right: 0em;
+				/*margin-bottom: 0em;*/
+				/*margin-right: 0em;*/
 			}
 
         /* BOXES FULL SCREEN WIDTH */  
@@ -2329,8 +2333,8 @@
 			text-align: left;
 			/*margin: 1em -1em 1em 0em;*/
             /* this is hacky but it keeps the image full-width */
-            margin: 0em calc(100% - 100vw);
-            padding: 1.25em calc(100vw - 100%) 3.25em calc(100vw - 100%);
+            margin: 0em calc((100% - 100vw)/2);
+            padding: 1.25em calc((100vw - 100%)/2) 3.25em calc((100vw - 100%)/2);
 		}
 
 			/*list elements for simple layout*/
@@ -2349,7 +2353,7 @@
 			}
 
                 .box.simple:first-child {
-                    margin-top: -2.5em;
+                    margin-top: 0em;/*-2.5em;*/
                 }
 
                 .box.simple:last-child {
@@ -2362,8 +2366,8 @@
             text-align: left;
             /*margin: 1em -1em 1em 0em;*/
             /* this is hacky but it keeps the image full-width */
-            margin: 0em calc(100% - 100vw);
-            padding: 1.25em calc(100vw - 100%) 3.25em calc(100vw - 100%);
+            margin: 0em calc((100% - 100vw)/2);
+            padding: 1.5em calc((100vw - 100%)/2) 2em calc((100vw - 100%)/2);
             background-image: url("images/overlay.png"), url("../../images/banner_blur.jpg");
             background-attachment: scroll, fixed;
             /*background-repeat: no-repeat;*/
