@@ -1,6 +1,6 @@
 ## <a name="updates"></a>Updates
 
-- **February 2021**: I gave the grad student seminar at NYU on my work emulating galaxy clustering statistics.
+- **February 2022**: I gave the grad student seminar at NYU on my work emulating galaxy clustering statistics.
 - **December 2021**: I remotely gave an Early Career Researcher cosmology seminar at [CosKASI](http://cosmology.kasi.re.kr/seminar.php?year=ECR){:target="\_blank"} on my emulation project.
 - **December 2021**: I presented (in person!) at GothamFest 2021 at CCA.
 - **November 2021**: I gave a remote talk at the Statistics & ML Journal Club at UToronto Astro on my GAN anomaly detection work. 
