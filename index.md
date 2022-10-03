@@ -15,6 +15,8 @@ buttons:
     url: "#service"
   - title: "Outreach"
     url: "#outreach"
+  - title: "Contact"
+    url: "#contact"
 ---
 
 {% include about.md %}

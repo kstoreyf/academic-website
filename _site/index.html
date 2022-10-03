@@ -92,6 +92,14 @@ New York University</p>
           <a href="/ksf/#outreach" class="button ">Outreach</a>
         </li>
       
+
+        
+        
+
+        <li>
+          <a href="/ksf/#contact" class="button ">Contact</a>
+        </li>
+      
     </ul>
   
 </section>
@@ -100,10 +108,12 @@ New York University</p>
 <section id="main" class="container">
 <section class="box special features">
     <header class="major">
-    <p> <img src="/ksf/images/headshot.jpg" alt="" align="left" width="200" /> I am a PhD candidate in the <a href="https://cosmo.nyu.edu" target="_blank">Center for Cosmology and Particle Physics</a> at New York University and a NASA FINESST fellow. I study the large-scale structure of the universe—how we can use observations of galaxies and other astronomical objects to understand fundamental cosmological properties. More broadly, I’m interested in the application of data science and statistics to astrophysical problems.
+    <p> <img src="/ksf/images/headshot.jpg" alt="" align="left" width="200" /> I'm Kate Storey-Fisher (she/her), a PhD candidate in the <a href="https://cosmo.nyu.edu" target="_blank">Center for Cosmology and Particle Physics</a> at New York University and a NASA FINESST fellow. I study the large-scale structure of the universe—how we can use observations of galaxies and other astronomical objects to understand fundamental cosmological properties. More broadly, I’m interested in the application of data science and statistics to astrophysical problems.
     <br />
     <br />
     I am also a writer, a public science educator, a cool TA (not a regular TA), an open source advocate, a labor organizer, a half-marathoner, and an extremely dedicated member of my book club.</p>
+    <br />
+    <em> I am on the postdoc job market this fall! If you think my research would be a good fit for your group, or you'd like me to give a talk at your institute, please <a href="mailto:k.sf@nyu.edu">reach out</a>.</em>
     </header>
 </section>
 
@@ -117,6 +127,7 @@ New York University</p>
         <div>
           <p>I primarily work on developing new methods for large-scale structure analysis, to better constrain cosmological parameters and understand the galaxy–halo connection. 
 I also dabble in ML applications to galaxy images.
+You can find my publications on <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Storey-Fisher%2C%20Kate%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0" target="\_blank">ADS</a> and the <a href="https://arxiv.org/search/?searchtype=author&amp;query=Storey-Fisher%2C+K" target="\_blank">arXiv</a>.
 These are a few of my current and recent projects:</p>
         </div>
         <div class="row">
@@ -126,19 +137,9 @@ These are a few of my current and recent projects:</p>
             
             <!--<article class="4u 12u$(xsmall) work-item">-->
             <article class="4u 8u(narrower) work-item">
-				<a href="https://arxiv.org/abs/2105.02434" target="_blank" class="image fit thumb"><img src="/ksf/images/research/anomaly.jpg" alt="" /></a>        
-                <h5>Anomaly Detection with GANs</h5>
-                <h6>I applied Generative Adversarial Networks (GANs) to detect anomalous images in the Hyper-Suprime Cam survey. We found galaxy mergers, tidal features, and extreme star-formers, and even some unexplained images. Find more weird galaxies yourself <a href="https://weirdgalaxi.es">here</a>.</h6>
-            </article>
-            
-        
-            <!-- if item begins with underscore, do not display -->
-            
-            <!--<article class="4u 12u$(xsmall) work-item">-->
-            <article class="4u 8u(narrower) work-item">
 				<a href="https://aemulusproject.github.io/index.html" target="_blank" class="image fit thumb"><img src="/ksf/images/research/emulation.jpg" alt="" /></a>        
                 <h5>Emulation of Clustering Statistics</h5>
-                <h6>I am working with the <a href="https://aemulusproject.github.io/index.html">Aemulus collaboration</a> to train Gaussian process emulators to predict galaxy clustering statistics. Currently I am emulating beyond-standard statistics to further constrain the growth of structure.</h6>
+                <h6>With the <a href="https://aemulusproject.github.io/index.html">Aemulus collaboration</a>, I aim to tap into the cosmological constraining power at small scales. We use Gaussian process <em>emulators</em> to model galaxy clustering statistics; we recently performed an <a href="https://arxiv.org/abs/2203.08999">analysis of the BOSS galaxy survey</a>. I am currently emulating beyond-standard statistics to further constrain the growth of structure.</h6>
             </article>
             
         
@@ -148,7 +149,37 @@ These are a few of my current and recent projects:</p>
             <article class="4u 8u(narrower) work-item">
 				<a href="https://arxiv.org/abs/2011.01836" target="_blank" class="image fit thumb"><img src="/ksf/images/research/estimation.jpg" alt="" /></a>        
                 <h5>Continuous 2-Point Function Estimation</h5>
-                <h6>I constructed a generalization of the estimator for the 2-point correlation function for large-scale structure. It measures galaxy clustering in a continuous basis, without bins (binning is sinning!). Check out the code, <a href="https://suave.readthedocs.io/en/latest/">suave</a>.</h6>
+                <h6>I developed a new estimator for galaxy clustering that is <em>continuous</em> in galaxy separation, and any other property (binning is sinning!). It is a generalization of the 2-point correlation function using least-squares fitting. Check out the <a href="https://arxiv.org/abs/2011.01836">paper</a> and the code, <a href="https://suave.readthedocs.io/en/latest/">suave</a>. My collaborator Abby Williams is using it to measure <a href="https://ui.adsabs.harvard.edu/abs/2021AAS...23811601W/abstract">horizon-scale gradients</a>.</h6>
+            </article>
+            
+        
+            <!-- if item begins with underscore, do not display -->
+            
+            <!--<article class="4u 12u$(xsmall) work-item">-->
+            <article class="4u 8u(narrower) work-item">
+				<a href="https://twitter.com/katestoreyfish/status/1537515802643025920" target="_blank" class="image fit thumb"><img src="/ksf/images/research/quasars.png" alt="" /></a>        
+                <h5>Equivariant ML for Cosmology</h5>
+                <h6>My collaborators have developed a new approach for enforcing physical symmetries in machine learning tasks, by constructing <a href="https://arxiv.org/abs/2106.06610">invariant scalars</a> from geometric objects; this greatly <a href="https://arxiv.org/abs/2110.03761">improves performance</a>. We are currently applying the approach to DM halos in cosmological simulations to learn their relationship to galaxy properties.</h6>
+            </article>
+            
+        
+            <!-- if item begins with underscore, do not display -->
+            
+            <!--<article class="4u 12u$(xsmall) work-item">-->
+            <article class="4u 8u(narrower) work-item">
+				<a href="https://twitter.com/katestoreyfish/status/1537515802643025920" target="_blank" class="image fit thumb"><img src="/ksf/images/research/quasars.png" alt="" /></a>        
+                <h5>The Gaia Quasar Catalog</h5>
+                <h6>The <a href="https://sci.esa.int/web/gaia">Gaia</a> Milky Way mission incidentally observed 6.6 million quasar candidates! I am working with a team of collaborators to produce a quasar catalog for large-scale structure cosmology. We are improving the redshift estimates and modelling the selection funciton, and starting to make some cosmological measurements---stay tuned!</h6>
+            </article>
+            
+        
+            <!-- if item begins with underscore, do not display -->
+            
+            <!--<article class="4u 12u$(xsmall) work-item">-->
+            <article class="4u 8u(narrower) work-item">
+				<a href="https://arxiv.org/abs/2105.02434" target="_blank" class="image fit thumb"><img src="/ksf/images/research/anomaly.jpg" alt="" /></a>        
+                <h5>Anomalous Galaxies with GANs</h5>
+                <h6>I applied Generative Adversarial Networks (GANs) to detect anomalous images in the Hyper-Suprime Cam survey. Along with a novel method for anomaly characterization with convolutional autoencoders, we found galaxy mergers, tidal features, extreme star-formers, and even some unexplainable objects. Read about it <a href="https://arxiv.org/abs/2105.02434">here</a>, and find more <a href="https://weirdgalaxi.es">https://weirdgalaxi.es</a> yourself!</h6>
             </article>
             
         
@@ -192,7 +223,9 @@ These are a few of my current and recent projects:</p>
         <!-- </section> --->
         <!--<p>  </p>-->
         <div>
-          <p>I have written for <a href="https://astrobites.org" target="\_blank">Astrobites</a>, a site by graduate students that summarizes new astrophysics research papers and dishes out other astro-focused content, as well as the <a href="http://coopersquarereview.org/" target="\_blank">Cooper Square Review</a>, a publication by the NYU Journalism Institute.</p>
+          <p>I have written for <a href="https://astrobites.org" target="\_blank">Astrobites</a>, a site by graduate students that summarizes new astrophysics research papers and dishes out other astro-focused content.
+I have also written for the <a href="http://coopersquarereview.org/" target="\_blank">Cooper Square Review</a>, a publication by the NYU Journalism Institute, where I completed the <a href="https://journalism.nyu.edu/about-us/science-communication-workshops-nyu/" target="\_blank">Science Communication Workshops</a>.
+These are a few selected pieces:</p>
         </div>
         <div class="row">
         
@@ -269,6 +302,10 @@ These are a few of my current and recent projects:</p>
           <h2 id="updates"><a name="updates"></a>Updates</h2>
 
           <ul>
+            <li><strong>July–August 2022</strong>: I visited MPIA in Heidelberg, where I worked with Hans-Walter Rix and David W. Hogg on the <a href="https://hoggresearch.blogspot.com/2022/07/gaia-quasar-redshifts.html" target="\_blank">Gaia quasars</a>.</li>
+            <li><strong>June 2022</strong>: I attended <a href="https://eas.unige.ch/EAS2022/" target="\_blank">EAS2022</a>, the European Astronomical Society meeting, in Valencia, Spain, where I co-organized the special session <a href="https://eas.unige.ch/EAS2022/session.jsp?id=SS24" target="\_blank">Critical Challenges for Machine Learning in Astronomy</a> and gave <a href="https://cosmo.nyu.edu/ksf/pdfs/2022-07-01_equivariant_cosmology_EAS2022.pdf" target="\_blank">two</a> <a href="https://cosmo.nyu.edu/ksf/pdfs/2022-07-01_aemulus_EAS2022.pdf" target="\_blank">talks</a>. (I also did the <a href="https://twitter.com/EAS_meeting/status/1542228742495428610" target="\_blank">Astro Run</a>!)</li>
+            <li><strong>June 2022</strong>: I participated in the <a href="https://gaia.lol/2022NYC.html" target="\_blank">Gaia Fête</a> at Flatiron CCA.</li>
+            <li><strong>May 2022</strong>: I attended the <a href="https://code.astrodata.nyc/" target="\_blank">Astronomical Software Workshop</a> at Flatiron CCA.</li>
             <li><strong>March 2022</strong>: I attended the workshop <a href="https://indico.flatironinstitute.org/event/2777/" target="\_blank">From Data to Software to Science with the Rubin Observatory LSST</a> at Flatiron CCA.</li>
             <li><strong>February 2022</strong>: I gave the grad student seminar at NYU on my work emulating galaxy clustering statistics.</li>
             <li><strong>December 2021</strong>: I remotely gave an Early Career Researcher cosmology seminar at <a href="http://cosmology.kasi.re.kr/seminar.php?year=ECR" target="\_blank">CosKASI</a> on my emulation project.</li>
@@ -279,17 +316,6 @@ These are a few of my current and recent projects:</p>
             <li><strong>September 2021</strong>: I gave a remote talk at ML Club via the <a href="https://aaii.ucsc.edu/" target="\_blank">Applied Artificial Intelligence Initiative</a> at UCSC.</li>
             <li><strong>August 2021</strong>: The project I worked on during my stint at the <a href="https://www.saao.ac.za/" target="\_blank">South African Astronomical Observatory</a> on the <a href="https://arxiv.org/abs/2102.10126" target="\_blank">CGM in the Simba simulations</a> was published.</li>
             <li><strong>August 2021</strong>: I presented on my work emulating beyond-standard clustering statistics at the <a href="https://www.simonsfoundation.org/event/learn-the-universe-an-ml-x-cosmology-workshop/" target="\_blank">Learn the Universe</a> workshop at CCA.</li>
-            <li><strong>August 2021</strong>: I gave a virtual talk at <a href="https://astronomyontap.org/" target="\_blank">Astronomy on Tap</a>, Kingston on <a href="https://www.youtube.com/watch?v=dO9-Raq-zhs" target="\_blank">“How To Grow Your Own Universe”</a>.</li>
-            <li><strong>July 2021</strong>: I spoke (remotely) at the ML in Astronomy meeting at Western Sydney University, Australia, on my weird galaxy project.</li>
-            <li><strong>June 2021</strong>: My collaborator Abby Williams <a href="https://aas238-aas.ipostersessions.com/default.aspx?s=8F-0A-3E-DC-EC-EB-B0-F1-15-BE-58-67-BC-9F-2F-EB&amp;guestview=true" target="\_blank">presented our work</a> measuring gradients in clustering at AAS238.</li>
-            <li><strong>April 20201</strong>: I gave a virtual talk to <a href="https://asterism.org/" target="\_blank">Amateur Astronomers, Inc.</a> in New Jersey on <a href="https://tinyurl.com/ksf-aai" target="\_blank">“How Galaxies Shed Light on Dark Matter”</a>.</li>
-            <li><strong>January 2021</strong>: I gave a virtual seminar at the <a href="https://gccl-rub.github.io/" target="\_blank">German Center for Cosmological Lensing</a> on my correlation function estimator work.</li>
-            <li><strong>December 2020</strong>: I virtually attended NeurIPS 2020, where I co-presented a <a href="https://nips.cc/virtual/2020/public/tutorial_66a516f865fca1c921dba625ede4a693.html" target="\_blank">tutorial on ML for Astrophysics</a>, and presented my work on <a href="https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_71_poster.pdf" target="\_blank">GANs for anomaly detection</a> at the <a href="https://ml4physicalsciences.github.io/2020/" target="\_blank">ML4PS workshop</a>.</li>
-            <li><strong>December 2020</strong>: I remotely gave the Center for Computational Astrophysics Thursday lunch talk.</li>
-            <li><strong>November 2020</strong>: I virtually gave the <a href="https://web.astro.princeton.edu/events/seminars/cosmology-lunch" target="\_blank">Princeton/IAS Cosmology Lunch Talk</a> on <a href="https://arxiv.org/abs/2011.01836" target="\_blank">“binning is sinning”</a>.</li>
-            <li><strong>November 2020</strong>: I submitted my <a href="https://arxiv.org/abs/2011.01836" target="\_blank">first first-author paper</a>!</li>
-            <li><strong>June 2020</strong>: I (remotely) attended <a href="https://comscicon.com/">ComSciCon</a>, a workshop on science communication for graduate students.</li>
-            <li><strong>May 2020</strong>: I was awarded the <a href="https://astrobiology.nasa.gov/funding/future-investigators-in-nasa-earth-and-space-sci-3/" target="\_blank">NASA Future Investigators in NASA Earth and Space Science and Technology (FINESST)</a> to fund the rest of my PhD!</li>
           </ul>
 
           <p>For older updates, visit <a href="updates">this page</a>.</p>
@@ -337,7 +363,7 @@ These are a few of my current and recent projects:</p>
             <article class="4u 8u(narrower) work-item">
 				<a href="https://www.caveat.nyc/event/astronaut-training--10-5-2019" target="_blank" class="image fit thumb"><img src="/ksf/images/outreach/caveat.png" alt="" /></a>        
                 <h5>Public Talks</h5>
-                <h6>I give public talks on astronomy and science, including an outreach lecture at the South African Astronomical Observatory and a talk at <a href="https://astronomyontap.org/">Astronomy on Tap</a>. I have also been a guest on the comedy game show <a href="https://www.caveat.nyc/event/astronaut-training--10-5-2019">Astronaut Training</a> at Caveat in NYC.</h6>
+                <h6>I give public talks on astronomy and science, to local astronomy groups and at observatories, as well as a talk at <a href="https://astronomyontap.org/">Astronomy on Tap</a>. I have also been a guest on the comedy game show <a href="https://www.caveat.nyc/event/astronaut-training--10-5-2019">Astronaut Training</a> at Caveat in NYC.</h6>
             </article>
             
         
@@ -355,7 +381,7 @@ These are a few of my current and recent projects:</p>
           <!--<div class="icon-list">-->
           <ul>
             <li>I am on the Science Organizing Committee of the special session <a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS24">Critical Challenges for Machine Learning in Astronomy</a> at the European Astronomical Socity meeting in June 2022.</li>
-            <li>I have been a reviewer for The Astrophysical Journal and the NeurIPS ML4PS workshop.</li>
+            <li>I have been a reviewer for The Astrophysical Journal (ApJ), the NeurIPS Machine Learning and the Physical Sciences (ML4PS) workshop, and the Journal of Open Source Science (JOSS).</li>
             <li>I was the founding co-chair of the graduate student organization at NYU, <a href="https://physics.nyu.edu/gphorce/" target="\_blank">G-PHORCE</a> (Graduate Physics Organization for Research, Culture, and Education).</li>
             <li>I co-organized the <a href="https://www.benty-fields.com/manage_jc?groupid=273" target="\_blank">astro-ph journal club</a> in the Center for Cosmology and Particle Physics (CCPP) at NYU.</li>
             <li>I was on the board of the Women in Physics (WiPhy) group at NYU.</li>
@@ -378,7 +404,7 @@ These are a few of my current and recent projects:</p>
 Feel free to get in touch—you could @ me on Twitter, or open a pull request on one of my repos, but probably just send me an email.
 <br />
 <br />
-If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.
+<!--If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.-->
 </p>
 
 <div class="icons">
@@ -425,6 +451,7 @@ If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXf
 		<li>&copy; Kate Storey-Fisher. All rights reserved.</li>
 		<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 		<li>Jekyll integration: <a href="http://irubataru.com">Jonas Glesaaen</a></li>
+        <li> Image: <a href="https://www.tng-project.org/">TNG Collaboration</a></li>
 	</ul>
 </footer>
 

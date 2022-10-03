@@ -5,6 +5,10 @@ title: "Updates"
 <!--- subtitle: x --->
 ---
 
+- **July--August 2022**: I visited MPIA in Heidelberg, where I worked with Hans-Walter Rix and David W. Hogg on the [Gaia quasars](https://hoggresearch.blogspot.com/2022/07/gaia-quasar-redshifts.html){:target="\_blank"}.
+- **June 2022**: I attended [EAS2022](https://eas.unige.ch/EAS2022/){:target="\_blank"}, the European Astronomical Society meeting, in Valencia, Spain, where I co-organized the special session [Critical Challenges for Machine Learning in Astronomy](https://eas.unige.ch/EAS2022/session.jsp?id=SS24){:target="\_blank"} and gave [two](https://cosmo.nyu.edu/ksf/pdfs/2022-07-01_equivariant_cosmology_EAS2022.pdf){:target="\_blank"} [talks](https://cosmo.nyu.edu/ksf/pdfs/2022-07-01_aemulus_EAS2022.pdf){:target="\_blank"}. (I also did the [Astro Run](https://twitter.com/EAS_meeting/status/1542228742495428610){:target="\_blank"}!)
+- **June 2022**: I participated in the [Gaia Fête](https://gaia.lol/2022NYC.html){:target="\_blank"} at Flatiron CCA.
+- **May 2022**: I attended the [Astronomical Software Workshop](https://code.astrodata.nyc/){:target="\_blank"} at Flatiron CCA.
 - **March 2022**: I attended the workshop [From Data to Software to Science with the Rubin Observatory LSST](https://indico.flatironinstitute.org/event/2777/){:target="\_blank"} at Flatiron CCA.
 - **February 2022**: I gave the grad student seminar at NYU on my work emulating galaxy clustering statistics.
 - **December 2021**: I remotely gave an Early Career Researcher cosmology seminar at [CosKASI](http://cosmology.kasi.re.kr/seminar.php?year=ECR){:target="\_blank"} on my emulation project.
@@ -14,8 +18,7 @@ title: "Updates"
 - **September 2021**: My work on [anomalous galaxy detection with GANs in HSC](https://arxiv.org/abs/2105.02434){:target="\_blank"} was published.
 - **September 2021**: I gave a remote talk at ML Club via the [Applied Artificial Intelligence Initiative](https://aaii.ucsc.edu/){:target="\_blank"} at UCSC.
 - **August 2021**: The project I worked on during my stint at the [South African Astronomical Observatory](https://www.saao.ac.za/){:target="\_blank"} on the [CGM in the Simba simulations](https://arxiv.org/abs/2102.10126){:target="\_blank"} was published.
-- **August 2021**: I presented on my work emulating beyond-standard clustering statistics at the [Learn the Universe](https://www.simonsfoundation.org/event/learn-the-universe-an-ml-x-cosmology-workshop/){:target="\_blank"} workshop at CCA. 
-- **August 2021**: I gave a virtual talk at [Astronomy on Tap](https://astronomyontap.org/){:target="\_blank"}, Kingston on ["How To Grow Your Own Universe"](https://www.youtube.com/watch?v=dO9-Raq-zhs){:target="\_blank"}.
+- **August 2021**: I presented on my work emulating beyond-standard clustering statistics at the [Learn the Universe](https://www.simonsfoundation.org/event/learn-the-universe-an-ml-x-cosmology-workshop/){:target="\_blank"} workshop at CCA.
 - **July 2021**: I spoke (remotely) at the ML in Astronomy meeting at Western Sydney University, Australia, on my weird galaxy project.
 - **June 2021**: My collaborator Abby Williams [presented our work](https://aas238-aas.ipostersessions.com/default.aspx?s=8F-0A-3E-DC-EC-EB-B0-F1-15-BE-58-67-BC-9F-2F-EB&guestview=true){:target="\_blank"} measuring gradients in clustering at AAS238.
 - **April 2021**: I gave a virtual talk to [Amateur Astronomers, Inc.](https://asterism.org/){:target="\_blank"} in New Jersey on ["How Galaxies Shed Light on Dark Matter"](https://tinyurl.com/ksf-aai){:target="\_blank"}.
@@ -24,6 +27,7 @@ title: "Updates"
 - **December 2020**: I remotely gave the Center for Computational Astrophysics Thursday lunch talk.
 - **November 2020**: I virtually gave the [Princeton/IAS Cosmology Lunch Talk](https://web.astro.princeton.edu/events/seminars/cosmology-lunch){:target="\_blank"} on ["binning is sinning"](https://arxiv.org/abs/2011.01836){:target="\_blank"}.
 - **November 2020**: I submitted my [first first-author paper](https://arxiv.org/abs/2011.01836){:target="\_blank"}!
+- **August 2021**: I gave a virtual talk at [Astronomy on Tap](https://astronomyontap.org/){:target="\_blank"}, Kingston on ["How To Grow Your Own Universe"](https://www.youtube.com/watch?v=dO9-Raq-zhs){:target="\_blank"}.
 - **June 2020**: I (remotely) attended [ComSciCon](https://comscicon.com/), a workshop on science communication for graduate students.
 - **May 2020**: I was awarded the [NASA Future Investigators in NASA Earth and Space Science and Technology (FINESST)](https://astrobiology.nasa.gov/funding/future-investigators-in-nasa-earth-and-space-sci-3/){:target="\_blank"} to fund the rest of my PhD!  
 - **Feburary 2020**: I passed my oral qualifying exam to become a PhD candidate!

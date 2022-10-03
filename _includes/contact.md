@@ -5,7 +5,7 @@
 Feel free to get in touch—you could @ me on Twitter, or open a pull request on one of my repos, but probably just send me an email.
 <br>
 <br>
-If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.
+<!--If you're looking for my <a href="https://drive.google.com/file/d/1ayHWmIewZ5UXftCY61035rKpF-d9iml2/view?usp=sharing" target="_blank">CV</a>, here it is—but it's mostly the things on this site in a more boring format.-->
 </p>
 
 <div class="icons">
