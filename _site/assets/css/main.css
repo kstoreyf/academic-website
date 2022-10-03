@@ -2320,7 +2320,7 @@
 				margin-top: -1em; /* height of about box and bottom of banner*/
 				margin-left: 0em;
 				margin-right: 0em;
-                margin-bottom: 5em; /* controls width between about box and start of main boxes, by moving banner. 5 for full width */
+                margin-bottom: 3em; /* controls width between about box and start of main boxes, by moving banner. 5 for full width */
 			}
 
 			.box.special:last-child {
@@ -3428,7 +3428,7 @@
 	}*/
 
 	body.landing #main {
-		margin-top: -19.8em; /*controls height of "about" box and bottom of banner (-19.8)*/
+		margin-top: -19.8em; /* ksf: controls height of "about" box and bottom of banner (-19.8)*/
 	}
 
 /* Footer */
