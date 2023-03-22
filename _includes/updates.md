@@ -3,10 +3,11 @@
 - **March 2023**: I attended the Coworking Retreat on Equivariant Machine Learning at Johns Hopkins University.
 - **March 2023**: I gave a talk on my equivariant cosmology project at the Flatiron CCA's Tri-State Cosmology X Data Science meeting.
 - **February 2023**: I virtually attended the [Beyond-2pt Statistics Data Challenge](https://github.com/ANSalcedo/Beyond2ptMock){:target="\_blank"} meeting at the University of Arizona.
-- **February 2023**: I accepted postdoctoral positions at the [Donostia International Physics Center](http://dipc.ehu.es/){:target="\_blank"} with Prof. Raul Angulo and as a Kavli Fellow at [Stanford KIPAC](https://kipac.stanford.edu/){:target="\_blank"}! I'm so grateful for everyone who supported me throughout job season.
+- **February 2023**: I accepted postdoctoral positions at the [Donostia International Physics Center](http://dipc.ehu.es/){:target="\_blank"} with Prof. Raúl Angulo and as a Kavli Fellow at [Stanford KIPAC](https://kipac.stanford.edu/){:target="\_blank"}! I'm so grateful for everyone who supported me throughout job season.
 - **February 2023**: I attended the [BASP (Biomedical and Astrophysical Signal Processing) Frontiers 2023](https://baspfrontiers.org/){:target="\_blank"} in Villars-sur-Ollon, Switzerland, and won a [best contribution award](https://baspfrontiers.org/best-contribution-awards/){:target="\_blank"} for my [talk](https://tinyurl.com/ksf-BASP2023){:target="\_blank"} on equivariant machine learning for cosmological simulations!
 - **January 2023**: I gave a three-minute talk at the NYC astro community's GothamFest, hosted at Flatiron CCA.
-- **January 2023**: I gave a dissertation talk at [AAS241](https://aas.org/meetings/aas241){:target="\_blank"} in Seattle.
+- **January 2023**: I attended [AAS241](https://aas.org/meetings/aas241){:target="\_blank"} in Seattle, where I gave a dissertation talk, repped [Astrobites](https://astrobites.org/){:target="\_blank"}, and s
+aw lots of great talks.
 - **December 2022**: I visited Argonne National Lab and Fermilab in the Chicago area.
 - **November 2022**: I gave cosmology seminars at UC Berkeley / Lawrence Berkeley Labs and at Stanford KIPAC.
 - **November 2022**: I spoke at the Flatiron CCA's Galaxy Formation meeting about our project on equivariant ML for the galaxy--halo connection.
