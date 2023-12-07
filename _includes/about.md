@@ -3,14 +3,13 @@
     <header class="major">
     <div style="line-height:135%;">
     <p> 
-    <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="" align="left" width="263"> I'm Kate Storey-Fisher (she/her), a PhD candidate in the <a href="https://cosmo.nyu.edu" target="_blank">Center for Cosmology and Particle Physics</a> at New York University and a NASA FINESST fellow. 
+    <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="" align="left" width="263"> I'm Kate Storey-Fisher (she/her), a postdoc at the <a href="https://dipc.ehu.eus/es" target="_blank">Donostia International Physics Center</a> (DIPC) in Donostia-San Sebastián, Spain, where I work with Professor Raúl Angulo. I completed my PhD at the <a href="https://cosmo.nyu.edu" target="_blank">Center for Cosmology and Particle Physics</a> at New York University where I was a NASA FINESST fellow. In Fall 2024, I will begin a position as a Kavli Fellow at Stanford KIPAC.
+    <br>
+    <br>
     I study the large-scale structure of the universe—how we can use observations of galaxies and other astronomical objects to understand fundamental cosmological properties. More broadly, I’m interested in the application of data science and statistics to astrophysical problems.
     <br>
     <br>
-    I am also a writer, a public science educator, a cool TA (not a regular TA), an open source advocate, a labor organizer, a half-marathoner, and an extremely dedicated member of my book club.
-    <br>
-    <br>
-     In Fall 2023 I will start a postdoctoral position at the Donostia International Physics Center in San Sebastián, Spain, and in Fall 2024 I will begin as a Kavli Fellow at Stanford KIPAC.
+    I am also a writer, a public science educator, an open source advocate, a labor organizer, a half-marathoner, and an extremely dedicated member of my book club.
     </p>
     </div>
     </header>
