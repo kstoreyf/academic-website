@@ -7,7 +7,7 @@
 
 # Site settings
 title: Kate Storey-Fisher
-email: k.sf@nyu.edu 
+email: kate.storeyfisher@dipc.org 
 description: "Astrophysicist &#160; | &#160; Postdoc @ the Donostia International Physics Center"
 baseurl: "/ksf" # the subpath of your site, e.g. /blog
 url: "https://cosmo.nyu.edu" # the base hostname & protocol for your site
@@ -18,7 +18,7 @@ font-awesome-icon-logo:
 
 # Social settings
 github_username: kstoreyf
-twitter_username: katestoreyfish
+twitter_username:
 facebook_URL:
 instagram_username:
 
