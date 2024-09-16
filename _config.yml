@@ -7,8 +7,8 @@
 
 # Site settings
 title: Kate Storey-Fisher
-email: kate.storeyfisher@dipc.org 
-description: "Astrophysicist &#160; | &#160; Postdoc @ the Donostia International Physics Center"
+email: kstoreyf@stanford.edu 
+description: "Astrophysicist &#160; | &#160; Kavli Fellow @ KIPAC, Stanford"
 baseurl: "/ksf" # the subpath of your site, e.g. /blog
 url: "https://cosmo.nyu.edu" # the base hostname & protocol for your site
 

@@ -1,0 +1,3 @@
+- Start files with an underscore to ignore them.
+- The descriptions all need to be the same length (number of lines on rendered page), or else the layout gets messed up! TODO fix, but I think it'll be an annoying CSS thing...
+- For some reason when I typed the phrase "spoiler:" in a description, it wouldn't render. The colon was file elsewhere tho??
