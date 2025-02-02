@@ -11,10 +11,10 @@
   <title>Kate Storey-Fisher</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!--[if lte IE 8]><script src="https://cosmo.nyu.edu/ksf/assets/js/ie/html5shiv.js"></script><![endif]-->
+  <!--[if lte IE 8]><script src="http://localhost:4000/ksf/assets/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cosmo.nyu.edu/ksf/assets/css/main.css" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="https://cosmo.nyu.edu/ksf/assets/css/ie8.css" /><![endif]-->
+  <link rel="stylesheet" href="http://localhost:4000/ksf/assets/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="http://localhost:4000/ksf/assets/css/ie8.css" /><![endif]-->
 </head>
 
   <body 
@@ -140,9 +140,9 @@ These are a few of my current and recent projects:</p>
             
             <!--<article class="4u 12u$(xsmall) work-item">-->
             <article class="4u 8u(narrower) work-item">
-				<a href="https://cosmo.nyu.edu/ksf/quaia.mp4" target="_blank" class="image fit thumb"><img src="/ksf/images/research/quasars.png" alt="" /></a>        
-                <h5>Quaia, the Gaia-unWISE Quasar Catalog</h5>
-                <h6>The <a href="https://sci.esa.int/web/gaia">Gaia</a> Milky Way mission incidentally observed 6.6 million quasar candidates! We used this sample to contruct a quasar catalog for large-scale structure cosmology, dubbed <a href="https://arxiv.org/abs/2306.17749">Quaia</a>. Check out our first cosmological result with Quaia, a <a href="https://arxiv.org/abs/2306.17748">cross-correlation analysis</a> with CMB lensing. More results to come! And check out this <a href="https://cosmo.nyu.edu/ksf/quaia.mp4">nifty animation</a>.</h6>
+				<a href="https://cosmo.nyu.edu/ksf/quaia.mp4" target="_blank" class="image fit thumb"><img src="/ksf/images/research/quaia.png" alt="" /></a>        
+                <h5>The Quaia Quasar Catalog</h5>
+                <h6>The <a href="https://sci.esa.int/web/gaia">Gaia</a> mission incidentally observed 6.6 million quasar candidates! Combining this with WISE data, we contructed a quasar catalog for large-scale structure cosmology, <a href="https://arxiv.org/abs/2306.17749">Quaia</a>. Check out our analyses with Quaia, including <a href="https://arxiv.org/abs/2306.17748">measuring S8</a> and the <a href="http://arxiv.org/abs/2410.24134">matter-radiation equality scale</a> in cross-correlation with CMB lensing. And check out this <a href="https://cosmo.nyu.edu/ksf/quaia.mp4">nifty animation</a>.</h6>
             </article>
             
         
@@ -152,7 +152,7 @@ These are a few of my current and recent projects:</p>
             <article class="4u 8u(narrower) work-item">
 				<a href="https://arxiv.org/abs/2210.03203" target="_blank" class="image fit thumb"><img src="/ksf/images/research/emulation.jpg" alt="" /></a>        
                 <h5>Emulation of Clustering Statistics</h5>
-                <h6>With the <a href="https://aemulusproject.github.io/index.html">Aemulus collaboration</a>, I aim to tap into the cosmological constraining power at small scales. We use Gaussian process <em>emulators</em> to model galaxy clustering statistics. I investigated emulating beyond-standard statistics to further constrain the growth of structure (spoiler, we get more precise constraints!) Check out our <a href="https://arxiv.org/abs/2210.03203">paper</a>.</h6>
+                <h6>With the <a href="https://aemulusproject.github.io/index.html">Aemulus collaboration</a>, I have developed Gaussian process <em>emulators</em> to model galaxy clustering statistics in order to extract small-scale information. I investigated emulating beyond-standard statistics, such as the marked correlation function, to further constrain the growth of structure (spoiler, we get more precise constraints!). Check out our <a href="https://arxiv.org/abs/2210.03203">paper</a>.</h6>
             </article>
             
         
@@ -160,9 +160,9 @@ These are a few of my current and recent projects:</p>
             
             <!--<article class="4u 12u$(xsmall) work-item">-->
             <article class="4u 8u(narrower) work-item">
-				<a href="" target="_blank" class="image fit thumb"><img src="/ksf/images/research/full_field.png" alt="" /></a>        
-                <h5>Full-field galaxy clustering inference</h5>
-                <h6>I am working on generating a library of mock galaxy catalogs with the aim of performing full-field inference on the galaxy distribution, along with the BACCO group at DIPC. We are using the <a href="https://arxiv.org/abs/2206.04594" target="_blank">map2map</a> emulator and the <a href="https://arxiv.org/abs/2207.06437" target="_blank">hybrid bias expansion</a> for the library, and experimenting with <a href="https://arxiv.org/abs/2011.05991" target="_blank">moment networks</a> for the inference. Stay tuned!</h6>
+				<a href="" target="_blank" class="image fit thumb"><img src="/ksf/images/research/sbi.png" alt="" /></a>        
+                <h5>SBI for galaxy clustering</h5>
+                <h6>With the BACCO group at DIPC, I am generating a library of mock galaxy catalogs for simulation-based inference for galaxy clustering. We are using the <a href="https://arxiv.org/abs/2206.04594" target="_blank">map2map</a> full-field emulator and the <a href="https://arxiv.org/abs/2207.06437" target="_blank">hybrid bias expansion</a> to model galaxy bias down to small scales. The goal is to quantify the information content in the galaxy field; stay tuned!</h6>
             </article>
             
         
@@ -172,7 +172,7 @@ These are a few of my current and recent projects:</p>
             <article class="4u 8u(narrower) work-item">
 				<a href="https://arxiv.org/abs/2105.02434" target="_blank" class="image fit thumb"><img src="/ksf/images/research/anomaly.jpg" alt="" /></a>        
                 <h5>Anomalous Galaxies with GANs</h5>
-                <h6>I applied Generative Adversarial Networks (GANs) to detect anomalous images in the Hyper-Suprime Cam survey. We came up with a novel method for anomaly characterization, we found galaxy mergers, tidal features, extreme star-formers, and even some unexplainable objects. Read about it <a href="https://arxiv.org/abs/2105.02434">here</a>, and find more <a href="https://weirdgalaxi.es">https://weirdgalaxi.es</a> yourself!</h6>
+                <h6>I applied Generative Adversarial Networks to detect anomalous images in the Hyper-Suprime Cam survey. Using a novel method for anomaly characterization, we found galaxy mergers, tidal features, extreme star-formers, and even some unexplainable objects. Read about it <a href="https://arxiv.org/abs/2105.02434">here</a>, and find more <a href="https://weirdgalaxi.es">https://weirdgalaxi.es</a> yourself!</h6>
             </article>
             
         
@@ -191,8 +191,8 @@ These are a few of my current and recent projects:</p>
             <!--<article class="4u 12u$(xsmall) work-item">-->
             <article class="4u 8u(narrower) work-item">
 				<a href="https://arxiv.org/abs/2011.01836" target="_blank" class="image fit thumb"><img src="/ksf/images/research/estimation.jpg" alt="" /></a>        
-                <h5>Continuous 2-Point Function Estimation</h5>
-                <h6>I developed a new estimator for galaxy clustering that is <em>continuous</em> in galaxy separation, and any other property (binning is sinning!). It is a generalization of the 2-point correlation function using least-squares fitting. Check out the <a href="https://arxiv.org/abs/2011.01836">paper</a> and the code, <a href="https://suave.readthedocs.io/en/latest/">suave</a>. My collaborator Abby Williams is using it to measure <a href="https://ui.adsabs.harvard.edu/abs/2021AAS...23811601W/abstract">horizon-scale gradients</a>.</h6>
+                <h5>Continuous 2-Point Functions</h5>
+                <h6>I developed a new estimator for galaxy clustering that is <em>continuous</em> in galaxy separation, and any other property (binning is sinning!). It is a generalization of the 2-point correlation function that projects the pairs onto any set of basis functions, inspired by linear least-squares fitting. Check out the <a href="https://arxiv.org/abs/2011.01836">paper</a> and the code, <a href="https://suave.readthedocs.io/en/latest/">suave</a>.</h6>
             </article>
             
         
@@ -472,13 +472,13 @@ Feel free to get in touch—you could open a pull request on one of my repos, or
 
     </div>
     <!-- Scripts -->
-<script src="https://cosmo.nyu.edu/ksf/assets/js/jquery.min.js"></script>
-<script src="https://cosmo.nyu.edu/ksf/assets/js/jquery.dropotron.min.js"></script>
-<script src="https://cosmo.nyu.edu/ksf/assets/js/jquery.scrollgress.min.js"></script>
-<script src="https://cosmo.nyu.edu/ksf/assets/js/skel.min.js"></script>
-<script src="https://cosmo.nyu.edu/ksf/assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="https://cosmo.nyu.edu/ksf/assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="https://cosmo.nyu.edu/ksf/assets/js/main.js"></script>
+<script src="http://localhost:4000/ksf/assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000/ksf/assets/js/jquery.dropotron.min.js"></script>
+<script src="http://localhost:4000/ksf/assets/js/jquery.scrollgress.min.js"></script>
+<script src="http://localhost:4000/ksf/assets/js/skel.min.js"></script>
+<script src="http://localhost:4000/ksf/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="http://localhost:4000/ksf/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="http://localhost:4000/ksf/assets/js/main.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
 
   </body>
