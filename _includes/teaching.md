@@ -2,6 +2,7 @@
 
 #### Courses
 
+- **Winter 2025**: Science Communication in Physics, Stanford (Co-Instructor)
 - **Fall 2021**: [Quantum Mechanics I](https://wp.nyu.edu/shabanilab/courses/qm1_2021/){:target="\_blank"}, NYU (Recitation Instructor)
 - **Fall 2019**: Quarks to Cosmos, NYU (Lab Instructor)
 - **Fall 2018**: [Physics 1](https://cosmo.nyu.edu/hogg/physics1/){:target="\_blank"}, NYU (Recitation Instructor)

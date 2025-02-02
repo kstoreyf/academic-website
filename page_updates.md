@@ -5,6 +5,11 @@ title: "Updates"
 <!--- subtitle: x --->
 ---
 
+- **February 2025**: I am giving an invited talk at the Cosmology on the Steep Rise confe
+rence at the Sexten Center for Astrophysics.
+- **December 2024**: I joined [DESI](https://desi.lbl.gov/) and attended the Collaboration Meeting in Cancún!
+- **December 2024**: I gave the Cosmology Seminar at the McWilliams Center at Carnegie Mellon University.
+- **October 2024**: I helped organize, and gave a talk at, the inaugural Stanford [Center for Decoding the Universe](https://datascience.stanford.edu/events/center-decoding-universe){:target="\_blank"} forum.
 - **September 2024**: I moved to the Bay Area and started as a Kavli Fellow at KIPAC at Stanford!
 - **August 2024**: I wrapped up my position at DIPC---but will keep collaborating with the BACCO group!
 - **June 2024**: I gave the seminar at IFAE, and visited both IFAE and ICE-CSIC in Barcelona.
