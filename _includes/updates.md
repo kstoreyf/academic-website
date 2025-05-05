@@ -1,8 +1,20 @@
 ## <a name="updates"></a>Updates
 
-- **February 2025**: I am giving an invited talk at the Cosmology on the Steep Rise conference at the Sexten Center for Astrophysics.
+#### <a name="updates"></a>Upcoming
+
+- **July 2025**: I will attend the DESI Collaboration meeting at Berkeley.
+- **May--June 2025**: I will be at [MIAPbP workshop "Big Data, Big Questions: The Future of Cosmological Surveys"](https://www.munich-iapbp.de/activities/activities-2025/cosmological-surveys) in Garching, Germany! After that I will be visiting my former group at DIPC in Donostia. Be in touch if you'd like to connect in Europe!
+
+#### <a name="updates"></a>Recent
+
+- **April 2025**: Our paper on measuring primordial non-Gaussianity in Quaia, led by my collaborators Giulio Fabbian and David Alonso, was posted to [arXiv](https://arxiv.org/abs/2504.20992)!
+- **April 2025**: I made the arduous journey over to UC Berkeley and gave the BCCP Cosmology Seminar.
+- **April 2025**: I visited the University of Washington and gave the Astronomy Colloquium.
+- **February 2025**: I gave an invited talk at the Cosmology on the Steep Rise conference at the Sexten Center for Astrophysics.
+- **January 2025**: I gave a KIPAC tea talk on our work on Quaia.
 - **December 2024**: I joined [DESI](https://desi.lbl.gov/){:target="\_blank"} and attended the Collaboration Meeting in Cancún!
 - **December 2024**: I gave the Cosmology Seminar at the McWilliams Center at Carnegie Mellon University.
+- **October 2024**: Our paper on measuring the matter-radiation equality scale in Quaia, led by my collaborator David Alonso, was posted to [arXiv](https://arxiv.org/abs/2410.24134)!
 - **October 2024**: I helped organize, and gave a talk at, the inaugural Stanford [Center for Decoding the Universe](https://datascience.stanford.edu/kipacsds-center-decoding-universe){:target="\_blank"} forum.
 - **September 2024**: I moved to the Bay Area and started as a Kavli Fellow at KIPAC at Stanford!
 - **August 2024**: I wrapped up my position at DIPC---but will keep collaborating with the BACCO group!
