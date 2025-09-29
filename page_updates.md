@@ -5,6 +5,13 @@ title: "Updates"
 <!--- subtitle: x --->
 ---
 
+- **September 2025**: I attended the [New Physics from Galaxy Clustering symposium](https://www.ggi.infn.it/showevent.pl?id=516) at the Galileo Galilei Institute in Florence.
+- **September 2025**: My collaborator Francesco Sinigaglia's paper releasing mocks for Quaia was posted to [arXiv](https://arxiv.org/abs/2509.15890)!
+- **August 2025**: Paul Gontard (Stanford undergraduate) finished his summer research project working with me on comparing Quaia and DESI quasars - we learned so many things and will continue the project!
+- **August 2025**: I served on a panel at the [Astronomical Society of the Pacific 2025 Virtual Symposium](https://astrosociety.org/get-involved/events/asp2025-virtual-symposium/), and got to talk about dark energy and DESI.
+- **July 2025**: I attended the DESI Collaboration meeting at Berkeley.
+- **May--June 2025**: I visited my former group at DIPC and worked on our simulation-based inference project.
+- **May 2025**: I attended the [MIAPbP workshop "Big Data, Big Questions: The Future of Cosmological Surveys"](https://www.munich-iapbp.de/activities/activities-2025/cosmological-surveys) in Garching, Germany.
 - **April 2025**: Our paper on measuring primordial non-Gaussianity in Quaia, led by my collaborators Giulio Fabbian and David Alonso, was posted to [arXiv](https://arxiv.org/abs/2504.20992)!
 - **April 2025**: I made the arduous journey over to UC Berkeley and gave the BCCP Cosmology Seminar.
 - **April 2025**: I visited the University of Washington and gave the Astronomy Colloquium.
