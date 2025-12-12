@@ -5,6 +5,13 @@ title: "Updates"
 <!--- subtitle: x --->
 ---
 
+- **December 2025**: I helped organize the [Human Meets AI in Scientific Research Replication Hackathon](https://datascience.stanford.edu/events/center-decoding-universe/hackathon-human-meets-ai-scientific-research-replication) through the Stanford Center for Decoding the Universe.
+- **December 2025**: I gave an outreach talk in Spanish at [Noches Astrónomicas](https://kipac.stanford.edu/events/noches-astronomicas-4) at Stanford!
+- **December 2025**: I attend "Cosmmute" at LBNL, a new efforrt to connect cosmologists across Stanford and Berkeley.
+- **November 2025**: A paper led by collaborator Mariona Giner on the quasar dut
+y cycle in Quaia was posted to [arXiv](https://arxiv.org/abs/2511.17413)!
+- **November 2025**: I gave the Astrophysics & Cosmology Seminar at UC Davis.
+- **October 2025**: I gave a talk at the Autumn 2025 Quarterly Forum of the Center for Decoding the Universe on foundation models for astrophysics.
 - **September 2025**: I attended the [New Physics from Galaxy Clustering symposium](https://www.ggi.infn.it/showevent.pl?id=516) at the Galileo Galilei Institute in Florence.
 - **September 2025**: My collaborator Francesco Sinigaglia's paper releasing mocks for Quaia was posted to [arXiv](https://arxiv.org/abs/2509.15890)!
 - **August 2025**: Paul Gontard (Stanford undergraduate) finished his summer research project working with me on comparing Quaia and DESI quasars - we learned so many things and will continue the project!
