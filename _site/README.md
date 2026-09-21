@@ -1,5 +1,11 @@
 # KSF's Academic Website
 
+My website has moved! The new site is at [kstoreyf.github.io](https://kstoreyf.github.io/), and the code is at [https://github.com/kstoreyf/kstoreyf.github.io](https://github.com/kstoreyf/kstoreyf.github.io).
+
+The old README is below:
+
+------------------------
+
 This is my website! 
 You can find it on the web at [https://cosmo.nyu.edu/ksf/](https://cosmo.nyu.edu/ksf/).
 It uses the Alpha theme from [HTML5 UP](https://html5up.net/), converted to jekyll by [Andrew Banchich](https://github.com/andrewbanchich/alpha-jekyll-theme), and edited for style by me.
