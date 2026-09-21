@@ -16,9 +16,13 @@
     class="landing"
     {% endif %}>
     <div id="page-wrapper">
+      {% unless page.moved %}
       {% include header.html %}
+      {% endunless %}
       {{ content }}
+      {% unless page.moved %}
       {% include footer.html %}
+      {% endunless %}
     </div>
     {% include scripts.html %}
   </body>

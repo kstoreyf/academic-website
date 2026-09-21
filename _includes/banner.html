@@ -1,5 +1,8 @@
 <!-- Banner -->
-<section id="banner" style="background-image: {{ overlay_str }}url('{{ banner_image_path }}');">
+<section id="banner" style="background-image: {{ overlay_str }}url('{{ banner_image_path }}');{% if page.moved %} min-height: 100vh; box-sizing: border-box; display: flex; align-items: center; justify-content: center; padding: 0;{% endif %}">
+  {% if page.moved %}
+  <p>Kate Storey-Fisher's website has moved! Find it at: <a href="https://kstoreyf.github.io" style="color: #fff; text-decoration: underline;">kstoreyf.github.io</a></p>
+  {% else %}
   <h2>{{ site.title }}</h2>
   <p>{{ site.description }}</p>
   {% if page.buttons %}
@@ -18,5 +21,6 @@
         </li>
       {% endfor %}
     </ul>
+  {% endif %}
   {% endif %}
 </section>
